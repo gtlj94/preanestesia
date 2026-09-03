@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Preanestesia</title>
+    <style>
+        :root {
+            --primary: #0284c7;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --text: #334155;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--light);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+        }
+        h1 {
+            color: var(--dark);
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 12px;
+            font-size: 24px;
+        }
+        h2 {
+            color: var(--dark);
+            font-size: 18px;
+            margin-top: 24px;
+        }
+        p, li {
+            font-size: 15px;
+        }
+        .highlight-box {
+            background-color: #f0f9ff;
+            border-left: 4px solid var(--primary);
+            padding: 16px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 13px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidad - Aplicación Preanestesia</h1>
+        <p><strong>Última actualización:</strong> 2 de Septiembre de 2026</p>
+        <p><strong>Aplicación:</strong> Preanestesia (Evaluación Preanestésica CPOE)</p>
+        <p><strong>Identificador del Paquete:</strong> <code>com.drluisgarcia.preanestesia</code></p>
+        <p><strong>Desarrollador:</strong> Dr. Luis García</p>
+
+        <div class="highlight-box">
+            <strong>Resumen Ejecutivo de Privacidad:</strong><br>
+            La aplicación <strong>Preanestesia</strong> es una herramienta médica de soporte a la decisión clínica (CDSS) que funciona 100% de manera local en el dispositivo del usuario. <strong>No recolectamos, no transmitimos, no almacenamos en servidores externos ni compartimos ningún dato de salud ni información personal de los pacientes.</strong>
+        </div>
+
+        <h2>1. Información Recopilada y Almacenamiento de Datos</h2>
+        <p>Todos los datos ingresados en los formularios de valoración preanestésica (datos filiatorios, antecedentes, laboratorio paraclínico, escalas de riesgo y registros de fármacos) se guardan <strong>exclusivamente en la memoria local (LocalStorage / WebView Storage) de su propio dispositivo móvil</strong>.</p>
+        <ul>
+            <li>No se envía información de pacientes a ningún servidor en la nube.</li>
+            <li>No requerimos la creación de cuentas ni registros con nombre de usuario o contraseña para operar la aplicación.</li>
+            <li>El usuario/médico tiene el control total sobre los datos y puede borrarlos en cualquier momento presionando el botón "Depurar" dentro de la app o limpiando el almacenamiento de la aplicación en la configuración de Android.</li>
+        </ul>
+
+        <h2>2. Permisos del Dispositivo</h2>
+        <p>La aplicación solicita únicamente los permisos estrictamente necesarios para su funcionamiento básico:</p>
+        <ul>
+            <li><strong>Acceso a Almacenamiento / Impresión:</strong> Requerido únicamente para generar y exportar el informe de evaluación en formato PDF cuando el usuario decide imprimir la valoración.</li>
+        </ul>
+
+        <h2>3. Servicios de Terceros</h2>
+        <p>La aplicación no integra servicios de publicidad ni redes de rastreo (trackers) de terceros. No comercializamos ni compartimos datos con empresas de análisis ni corredores de datos.</p>
+
+        <h2>4. Seguridad de la Información</h2>
+        <p>Dado que la información permanece contenida dentro del sandbox de la aplicación en el dispositivo del médico usuario, la seguridad de los registros depende del bloqueo de pantalla y la seguridad propia del dispositivo del profesional de la salud.</p>
+
+        <h2>5. Cumplimiento de Normativas Médicas</h2>
+        <p>La aplicación cumple con los principios generales de confidencialidad de la información médica y protección de datos del paciente (HIPAA / GDPR), garantizando la privacidad absoluta al no procesar datos en servidores remotos.</p>
+
+        <h2>6. Contacto y Soporte</h2>
+        <p>Si tiene preguntas o dudas sobre esta política de privacidad, puede contactar al desarrollador:</p>
+        <p>
+            <strong>Desarrollador:</strong> Dr. Luis García<br>
+            <strong>Correo Electrónico de Soporte:</strong> <code>contacto@drluisgarcia.com</code>
+        </p>
+
+        <footer>
+            &copy; 2026 Preanestesia. Todos los derechos reservados.
+        </footer>
+    </div>
+</body>
+</html>
