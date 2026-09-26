@@ -22,7 +22,7 @@ Para su correcto funcionamiento técnico, la Aplicación puede solicitar los sig
 Almacenamiento / Acceso a archivos: Únicamente requerido en caso de que el usuario decida exportar, guardar o compartir resúmenes de la valoración clínica (ej. archivos PDF o de texto local).
 Acceso a red (opcional): Requerido únicamente si se integran librerías básicas de Google Play Services para verificación de licencia o diagnóstico de errores del sistema (Crashlytics).
 5. Descargo de Responsabilidad Médica (Medical Disclaimer)
-[Nombre de tu Aplicación] es un instrumento digital de apoyo técnico, cálculo y organización documental dirigido exclusivamente a profesionales médicos y personal de salud debidamente calificado.
+Preanestesia es un instrumento digital de apoyo técnico, cálculo y organización documental dirigido exclusivamente a profesionales médicos y personal de salud debidamente calificado.
 Los algoritmos, sugerencias de escalas (ASA, índices cardíacos, predictores de vía aérea) y clasificaciones generadas por la herramienta tienen fines puramente asistenciales e informativos.
 La Aplicación no sustituye el criterio médico independiente, la anamnesis directa, la exploración física presencial ni el juicio clínico del médico anestesiólogo.
 La decisión terapéutica, la selección de la técnica anestésica, el plan de manejo de la vía aérea y la conducta perioperatoria definitiva son responsabilidad exclusiva del profesional actuante.
